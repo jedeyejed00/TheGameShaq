@@ -27,10 +27,10 @@
             <a href="https://github.com/jedeyejed00/TheGameShaq">Check out my profile GITHub</a>
             <br>
             <hr>
-            If you want to know more about me print "<p>My favorite website is <a href="http://www.facebook.com">Facebook</a>
-            My favorite website is <a href="http://www.offerup.com">OfferUp</a>
+            If you want to know more about me print <p>My favorite website is <a href="http://www.facebook.com">Facebook</a><br>
+            My favorite website is <a href="http://www.offerup.com">OfferUp</a><br>
             My favorite website is <a href="http://www.facebook.com/thegameshaq">TheGameShaq</a>
-            </p>";
+            </p>
 
 <?php
 echo 'Hello World';
