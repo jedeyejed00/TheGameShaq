@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
-    <head>
+    <head>body {
+                  background-color: lightblue;
+                }
         <title> Labwork 1: Hello World</title>
     </head>
     <body>
