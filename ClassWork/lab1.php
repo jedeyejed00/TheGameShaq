@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html>
-    <head>body {
-                  background-color: lightblue;
-                }
+    <head><style type="text/css">
+                body {
+                      background-color: lightblue;
+                     }
+          </style>
+                 
+                
         <title> Labwork 1: Hello World</title>
     </head>
     <body>
