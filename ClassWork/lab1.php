@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head><style type="text/css">
-                body {
-                      background-color: lightblue;
-                     }
+                body { background-color: lightblue;}
+                body {color: red;}
+                p {font-family: "Times New Roman", Times, serif;}
+                a {color: hotpink;}
+                a:link {color: red;}
+                a:visited {color: green;}
+                h1 {color: yellow;}
           </style>
                  
                 
@@ -20,10 +24,10 @@
             The only thing that trumps learning new things is executing and implementing the new things that i learn.  
             As far as a career goal i am already in the IT field and i just want to continue to sharpen my IT saw 
             since things in IT are always changing.  One of my worst fear in the career field is becoming obsolete 
-            with knowledge and technology in IT </p>
+            with knowledge and technology in IT. </p>
             <br>
-            <hr><br>
-            Below is a list of my hobbies:
+            <hr>
+           <h1> Below is a list of my hobbies:</h1>
             <ul> 
                 <li>Creating wooden signs</li> 
                 <li>Building old arcade games</li> 
