@@ -9,8 +9,13 @@
         
      
           echo '<h1> Thanks for visiting!</h1>';
-          echo "<p>email Address $ea</p>";
-          echo "<p>Last Name: $ln</P>";
+          echo "<p>Your First Name is : $fn</P>";
+          echo "<p>Your Last Name is: $ln</P>";
+          echo "<p>Your email Address is: $ea </p>";
+          echo "<p>Your gender is: $g</p>";
+          echo "<p>Your age range is: $age</p>";
+          echo "<p>Thanks for your contribution of : $ca</p>";
+          
           echo '<a href = "contact.html">Back To Home Page</a>';
             
      
