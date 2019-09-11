@@ -3,6 +3,10 @@
         $fn =$_POST['fn'];
         $ln = $_POST['ln'];
         $ea = $_POST['ea'];
+        $g = $_POST['g'];
+        $age = $_POST['age'];
+        $ca = $_POST['ca'];
+        
         
         
  
