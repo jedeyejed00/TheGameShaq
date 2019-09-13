@@ -20,7 +20,8 @@
       
 
 
-          echo "<p>Your total fees are : $CostPerUnit * $units</P>"; 
+          echo "<p>Your total fees are :$;
+          echo $CostPerUnit * $units</P>"; 
 
 
 
