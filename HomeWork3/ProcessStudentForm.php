@@ -5,7 +5,7 @@
         $units =$_POST['units']; 
         
         
-        $CostPerUnit = 24;
+        $CostPerUnit = 241;
 
         $ln = $_POST['ln']; 
 
