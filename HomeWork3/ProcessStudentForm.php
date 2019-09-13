@@ -14,7 +14,7 @@
 
           echo "<p>Your total fees are :</p>";
       
-          echo $units * $costperunit;
+          echo "$units * $costperunit";
 
 
 
