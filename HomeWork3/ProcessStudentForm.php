@@ -12,7 +12,7 @@
       
 
 
-          echo "<p>Your total fees are :</p>";
+          echo "<p>Your total fees are: $</p>";
       
           echo "$units * $costperunit";
 
