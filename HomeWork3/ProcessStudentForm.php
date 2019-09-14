@@ -16,13 +16,13 @@ if ($_POST['resident']=no) {
   
  echo $units * $costperunitnonresident; 
 
-  echo "<h1> Thank  you for Registering!</h1>"; 
+  
 } 
       
-
-
+echo"<br>";
+ echo "<h1> Thank  you for Registering!</h1>";
          
-      
+ echo"<br>";     
 
 
 
