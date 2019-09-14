@@ -3,18 +3,33 @@
         //Capture data from form 
 
         $units =$_POST['units']; 
-        
-        
-        $costperunit = 241;
+        $resident =$_POST['resident'];
+        $costperunit = 46;
+        $costperunitnonresident = 265;
 
 
+if ($_POST['resident']=no) { 
 
+   echo "<p>Your total fees are: $ echo $units * $costperunit</p>" ; 
+
+} else { 
+  
+   echo "<p>Your total fees are: $ echo $units * $costperunitnonresident</p>" ; 
+
+  echo '<h1> Thank  you for Registering!</h1>'; 
+
+          echo "<p>Thanks you $firstName $lastName for registering</p>"; 
+
+          echo "<p>Your email Address is $email</p>"; 
+
+          echo "<p>Your Password is $password</P>"; 
+
+} 
       
 
 
-          echo "<p>Your total fees are: $</p>";
+         
       
-          echo $units * $costperunit ;
 
 
 
