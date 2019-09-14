@@ -17,13 +17,6 @@ if ($_POST['resident']=no) {
  echo $units * $costperunitnonresident; 
 
   echo '<h1> Thank  you for Registering!</h1>'; 
-
-          echo "<p>Thanks you $firstName $lastName for registering</p>"; 
-
-          echo "<p>Your email Address is $email</p>"; 
-
-          echo "<p>Your Password is $password</P>"; 
-
 } 
       
 
