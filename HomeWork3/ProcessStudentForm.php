@@ -10,11 +10,11 @@
 
 if ($_POST['resident']=no) { 
 
-   echo "<p>Your total fees are: $ echo $units * $costperunit</p>" ; 
+   echo $units * $costperunit; 
 
 } else { 
   
-   echo "<p>Your total fees are: $ echo $units * $costperunitnonresident</p>" ; 
+ echo $units * $costperunitnonresident; 
 
   echo '<h1> Thank  you for Registering!</h1>'; 
 
