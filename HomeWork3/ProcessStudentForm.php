@@ -8,7 +8,7 @@
         $costperunitnonresident = 265;
 
 
-if ($resident=no) { 
+if ($resident=yes) { 
 
    echo $units * $costperunit; 
 
