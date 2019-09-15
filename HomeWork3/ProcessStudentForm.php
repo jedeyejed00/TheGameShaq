@@ -8,24 +8,7 @@
         $nonresident = 265;
 
 
-if ($resident=yes) { echo $units * $costperunit; 
-} elseif ($resident=no){ echo $units * $nonresident; 
+if ($resident=yes) {
+   echo $costperunit * $units;
 }
- else {
-echo "Your tuition is FREE";
-
-  
-} 
-      
-echo"<br>";
- echo "<h1> Thank  you for Registering!</h1>";
-         
- echo"<br>";     
-
-
-
-          echo '<a href = "StudentForm.html">Back To Home Page</a>'; 
-
-            //Output a message for fun 
-
 ?> 
