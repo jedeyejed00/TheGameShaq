@@ -8,10 +8,10 @@
         $nonresident = 265;
 
 
-if ($resident=yes) {
+if ($resident <1) {
    echo $nonresident * $units;
 }
-elseif ($resident==no) {
+elseif ($resident >0) {
     echo $costperunit * $units;
 }
 
