@@ -5,11 +5,11 @@
         $units =$_POST['units']; 
         $resident =$_POST['resident'];
         $costperunit = 46;
-        $costperunitnonresident = 265;
+        $nonresident = 265;
 
 
-if ($resident=no) { echo $units * $costperunit; 
-} elseif ($resident=yes){ echo $units * $costperunitnonresident; 
+if ($resident=yes) { echo $units * $costperunit; 
+} elseif ($resident=no){ echo $units * $nonresident; 
 }
  else {
 echo "Your tuition is FREE";
