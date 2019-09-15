@@ -8,13 +8,11 @@
         $costperunitnonresident = 265;
 
 
-if ($resident=yes) { 
-
-   echo $units * $costperunit; 
-
-} else { 
-  
- echo $units * $costperunitnonresident; 
+if ($resident=no) { echo $units * $costperunit; 
+} elseif ($resident=yes){ echo $units * $costperunitnonresident; 
+}
+ else {
+echo "Your tuition is FREE";
 
   
 } 
