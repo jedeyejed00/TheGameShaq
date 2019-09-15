@@ -10,10 +10,10 @@
 
 
 if ($resident < 1) {
-   echo $nonresident * $units + $mandatoryfees;
+   echo (rand($nonresident * $units + $mandatoryfees));
 }
 elseif ($resident = 1) {
-    echo $costperunit * $units + $mandatoryfees;
+    echo (rand($costperunit * $units + $mandatoryfees));
 }
 echo"<br>";
  echo "<h1> Thank  you for Registering!</h1>";
