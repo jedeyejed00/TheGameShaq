@@ -9,6 +9,6 @@
 
 
 if ($resident=yes) {
-   echo $costperunit * $units;
+   echo $nonresident * $units;
 }
 ?> 
