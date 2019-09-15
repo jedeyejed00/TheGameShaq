@@ -6,7 +6,7 @@
         $resident =$_POST['resident'];
         $costperunit = 46;
         $nonresident = 265;
-        $mandatoryfees = 20
+        $mandatoryfees = 20;
 
 
 if ($resident < 1) {
