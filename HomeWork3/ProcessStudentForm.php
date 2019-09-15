@@ -11,7 +11,7 @@
 if ($resident=yes) {
    echo $nonresident * $units;
 }
-elseif ($resident=no) {
+elseif ($resident==no) {
     echo $costperunit * $units;
 }
 
