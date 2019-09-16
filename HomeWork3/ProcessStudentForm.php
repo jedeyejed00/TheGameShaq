@@ -11,7 +11,7 @@
         $parking = 30;
       
 
-
+echo "<center>";
 if ($resident < 1) {
    echo ($nonresident * $units + $mandatoryfees) - (rand(0,500));
 }
@@ -33,4 +33,5 @@ echo"<br>";
          
  echo"<br>";     
 echo '<a href = "StudentForm.html">Back To Home Page</a>'; 
+echo "<center>";
 ?> 
