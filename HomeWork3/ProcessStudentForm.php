@@ -9,7 +9,7 @@
         $mandatoryfees = 20;
         $collegeservices = 20;
         $parking = 30;
-      
+        $calcnonres;
       
 
 echo "<center>";
