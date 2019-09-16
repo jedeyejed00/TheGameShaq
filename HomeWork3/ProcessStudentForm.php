@@ -11,9 +11,11 @@
         $parking = 30;
         $calcnonres = $nonresident * $units;
         $registrationcostnonres = $nonresident * $units + $mandatoryfees + $collegeservices + $parking;
-        $totcostnonres = $nonresident * $units + $collegeservices + $mandatoryfees -$randomscholarship;
-        $totcostres = $resident * $units + $collegeservices + $mandatoryfees -$randomscholarship;
-        $randomscholarship = (rand(0,500));
+        $totcostnonres = $nonresident * $units + $mandatoryfees + $collegeservices + $parking - $randomscholarship;
+       
+       
+       // $totcostres = $resident * $units + $collegeservices + $mandatoryfees -$randomscholarship;
+        //$randomscholarship = (rand(0,500));
       
 
 echo "<center>";
