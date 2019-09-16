@@ -14,15 +14,12 @@
 
 echo "<center>";
 if ($resident < 1) {
-   echo ($nonresident * $units + $mandatoryfees) - (rand(0,500)) = $calcnotares;
-}
-elseif ($resident = 1) {
-    echo ($costperunit * $units + $mandatoryfees) - (rand(0,500));
-}
-echo"<br>";
+   echo ($nonresident * $units) - (rand(0,500));
+   
+    echo"<br>";
  echo "<h1> Thank  you for Registering!</h1>";
  
- echo "<h3>Cost of Tuition:$ $calcnotares </h3/><br>";
+ echo "<h3>Cost of Tuition:$ $nonresident * $units </h3/><br>";
  echo "<h3>Student Health Fee:$ $mandatoryfees</h3/><br>";
  echo "<h3>College Services card:$ $collegeservices</h3/><br>";
  echo "<h3>Parking Permit:$ $parking</h3/><br>";
@@ -35,4 +32,9 @@ echo"<br>";
  echo"<br>";     
 echo '<a href = "StudentForm.html">Back To Home Page</a>'; 
 echo "<center>";
+}
+elseif ($resident = 1) {
+    echo ($costperunit * $units + $mandatoryfees) - (rand(0,500));
+}
+
 ?> 
