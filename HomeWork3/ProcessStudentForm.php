@@ -10,8 +10,9 @@
         $collegeservices = 20;
         $parking = 30;
         $calcnonres = $nonresident * $units;
-        $totcostnonres = $nonresident * $units + $collegeservices + $mandatoryfees;
-        $totcostres = $resident * $units + $collegeservices + $mandatoryfees;
+        $registrationcostnonres = $nonresident * $units + $mandatoryfees + $collegeservices + $parking;
+        $totcostnonres = $nonresident * $units + $collegeservices + $mandatoryfees -$randomscholarship;
+        $totcostres = $resident * $units + $collegeservices + $mandatoryfees -$randomscholarship;
         $randomscholarship = (rand(0,500));
       
 
@@ -26,9 +27,9 @@ echo "<h3>Cost of Tuition:$ $calcnonres </h3/><br>";
 echo "<h3>Student Health Fee:$ $mandatoryfees</h3/><br>";
 echo "<h3>College Services card:$ $collegeservices</h3/><br>";
 echo "<h3>Parking Permit:$ $parking</h3/><br>";
-echo "<h3>Total Registration Costs:</h3/><br>";
+echo "<h3>Total Registration Costs:$ $registrationcostnonres</h3/><br>";
 echo "<h3>Scholarship Award:$ $randomscholarship</h3/><br>";
-echo "<b><h3>Total College Balance Due: </h3/><br></b>";
+echo "<b><h3>Total College Balance Due:$ $totcostnonres  </h3/><br></b>";
 echo"<br>";     
 echo '<a href = "StudentForm.html">Back To Home Page</a>'; 
 echo "<center>";
