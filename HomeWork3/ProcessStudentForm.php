@@ -9,13 +9,13 @@
         $mandatoryfees = 20;
         $collegeservices = 20;
         $parking = 30;
-        $calcnonres;
+        $calcnonres = $nonresident * $units;
       
 
 echo "<center>";
 if ($resident < 1) {
     //($nonresident * $units) - (rand(0,500));
-   $nonresident * $units = $calcnonres;
+
     echo"<br>";
  echo "<h1> Thank  you for Registering!</h1>";
  
