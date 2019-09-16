@@ -9,9 +9,10 @@
         $mandatoryfees = 20;
         $collegeservices = 20;
         $parking = 30;
+        $randomscholarship = (rand(0,500));
         $calcnonres = $nonresident * $units;
-        $registrationcostnonres = $nonresident * $units + $mandatoryfees + $collegeservices + $parking;
-        $totcostnonres = $nonresident * $units + $mandatoryfees + $collegeservices + $parking - $randomscholarship;
+        $registrationcostnonres = $calcnonres + $mandatoryfees + $collegeservices + $parking;
+        $totcostnonres =$calcnonres + $mandatoryfees + $collegeservices + $parking - $randomscholarship;
        
        
        // $totcostres = $resident * $units + $collegeservices + $mandatoryfees -$randomscholarship;
