@@ -24,8 +24,8 @@ if ($resident < 1)  {
     echo"<br>";
  echo "<h1> Thank  you for Registering!</h1>";
  
-echo "Cost of Tuition:<h3>$ $calcnonres </h3/><br>";
-echo "Student Health Fee:<h3>$ $mandatoryfees</h3/><br>";
+echo "<h3>Cost of Tuition:$ $calcnonres </h3/><br>";
+echo "<h3>Student Health Fee:$ $mandatoryfees</h3/><br>";
 echo "College Services card:<h3>$ $collegeservices</h3/><br>";
 echo "Parking Permit:<h3>$ $parking</h3/><br>";
 echo "Total Registration Costs:<h3>$  $registrationcostnonres </h3/><br>";
