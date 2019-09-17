@@ -21,18 +21,16 @@
 
 echo "<center>";
 if ($resident < 1)  {
-    //($nonresident * $units) - (rand(0,500));
-
     echo"<br>";
  echo "<h1> Thank  you for Registering!</h1>";
  
-echo "<h3>Cost of Tuition:$ $calcnonres </h3/><br>";
-echo "<h3>Student Health Fee:$ $mandatoryfees</h3/><br>";
-echo "<h3>College Services card:$ $collegeservices</h3/><br>";
-echo "<h3>Parking Permit:$ $parking</h3/><br>";
-echo "<h3>Total Registration Costs:$ $registrationcostnonres</h3/><br>";
-echo "<h3>Scholarship Award:$ $randomscholarship</h3/><br>";
-echo "<b><h3>Total College Balance Due:$ $totcostnonres  </h3/><br></b>";
+echo "Cost of Tuition:<h3>$ $calcnonres </h3/>";
+echo "Student Health Fee:<h3>$ $mandatoryfees</h3/><br>";
+echo "College Services card:<h3>$ $collegeservices</h3/><br>";
+echo "Parking Permit:<h3>$ $parking</h3/><br>";
+echo "Total Registration Costs:<h3>$ $registrationcostnonres</h3/><br>";
+echo "Scholarship Award:<h3>$ $randomscholarship</h3/><br>";
+echo "<b>Total College Balance Due:<h3>$ $totcostnonres  </h3/><br></b>";
 echo"<br>";     
 echo '<a href = "StudentForm.html">Back To Home Page</a>'; 
 echo "<center>";
