@@ -35,16 +35,50 @@ echo "<h3>Scholarship Award:$ $randomscholarship</h3/>";
 echo "<h1>Total College Balance Due:$ $totcostnonres  </h1/>";
 echo"<br>";     
 echo '<a href = "StudentForm.html">Back To Home Page</a>'; 
-echo "<center>";
         break;
-    case "blue":
-        echo "Your favorite color is blue!";
+//non Rez, YES Parking, NO College Service
+    case "30":
+echo "<h1> Thank  you for Registering!</h1>";
+echo "<h3>Cost of Tuition:$ $calcnonres </h3/>";
+echo "<h3>Student Health Fee:$ $mandatoryfees</h3/>";
+echo "<h3>College Services card:$ $collegeservices</h3/>";
+echo "<h3>Parking Permit:$ $parking</h3/>";
+echo "<h3>Total Registration Costs:$  $registrationcostnonres </h3/>";
+echo "<h3>Scholarship Award:$ $randomscholarship</h3/>";
+echo "<h1>Total College Balance Due:$ $totcostnonres  </h1/>";
+echo"<br>";     
+echo '<a href = "StudentForm.html">Back To Home Page</a>'; 
         break;
-    case "green":
-        echo "Your favorite color is green!";
+
+//non Rez, NO Parking, YES College Service
+    case "20":
+echo "<h1> Thank  you for Registering!</h1>";
+echo "<h3>Cost of Tuition:$ $calcnonres </h3/>";
+echo "<h3>Student Health Fee:$ $mandatoryfees</h3/>";
+echo "<h3>College Services card:$ $collegeservices</h3/>";
+echo "<h3>Parking Permit:$ $parking</h3/>";
+echo "<h3>Total Registration Costs:$  $registrationcostnonres </h3/>";
+echo "<h3>Scholarship Award:$ $randomscholarship</h3/>";
+echo "<h1>Total College Balance Due:$ $totcostnonres  </h1/>";
+echo"<br>";     
+echo '<a href = "StudentForm.html">Back To Home Page</a>';
+        break;
+        
+//non Rez, YES Parking, YES College Service
+    case "50":
+echo "<h1> Thank  you for Registering!</h1>";
+echo "<h3>Cost of Tuition:$ $calcnonres </h3/>";
+echo "<h3>Student Health Fee:$ $mandatoryfees</h3/>";
+echo "<h3>College Services card:$ $collegeservices</h3/>";
+echo "<h3>Parking Permit:$ $parking</h3/>";
+echo "<h3>Total Registration Costs:$  $registrationcostnonres </h3/>";
+echo "<h3>Scholarship Award:$ $randomscholarship</h3/>";
+echo "<h1>Total College Balance Due:$ $totcostnonres  </h1/>";
+echo"<br>";     
+echo '<a href = "StudentForm.html">Back To Home Page</a>';
         break;
     default:
-        echo "Your favorite color is neither red, blue, nor green!";
+        echo "Please fill out form completely";
 }
 
 ?> 
