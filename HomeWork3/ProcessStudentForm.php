@@ -24,7 +24,7 @@ echo "<center>";
 
 //non Rez, No Parking, NO College Service
 switch ($favcolor) {
-    case "1":
+    case "0":
 echo "<h1> Thank  you for Registering!</h1>";
 echo "<h3>Cost of Tuition:$ $calcnonres </h3/>";
 echo "<h3>Student Health Fee:$ $mandatoryfees</h3/>";
