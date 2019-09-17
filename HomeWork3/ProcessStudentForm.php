@@ -24,13 +24,13 @@ if ($resident < 1)  {
     echo"<br>";
  echo "<h1> Thank  you for Registering!</h1>";
  
-echo "<h3>Cost of Tuition:$ $calcnonres </h3/><br>";
-echo "<h3>Student Health Fee:$ $mandatoryfees</h3/><br>";
-echo "College Services card:<h3>$ $collegeservices</h3/><br>";
-echo "Parking Permit:<h3>$ $parking</h3/><br>";
-echo "Total Registration Costs:<h3>$  $registrationcostnonres </h3/><br>";
-echo "Scholarship Award:<h3>$ $randomscholarship</h3/><br>";
-echo "<h1>Total College Balance Due:$ $totcostnonres  </h1/><br>";
+echo "<h3>Cost of Tuition:$ $calcnonres </h3/>";
+echo "<h3>Student Health Fee:$ $mandatoryfees</h3/>";
+echo "College Services card:<h3>$ $collegeservices</h3/>";
+echo "Parking Permit:<h3>$ $parking</h3/>";
+echo "Total Registration Costs:<h3>$  $registrationcostnonres </h3/>";
+echo "Scholarship Award:<h3>$ $randomscholarship</h3/>";
+echo "<h1>Total College Balance Due:$ $totcostnonres  </h1/>";
 echo"<br>";     
 echo '<a href = "StudentForm.html">Back To Home Page</a>'; 
 echo "<center>";
