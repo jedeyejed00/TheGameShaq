@@ -23,7 +23,7 @@
 echo "<center>";
 
 //non Rez, No Parking, NO College Service
-switch ($favcolor) {
+switch ($evalme) {
     case "0":
 echo "<h1> Thank  you for Registering!</h1>";
 echo "<h3>Cost of Tuition:$ $calcnonres </h3/>";
