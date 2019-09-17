@@ -26,7 +26,7 @@ echo "<center>";
 switch ($evalme) {
     case "0":
 echo "<h1> Thank  you for Registering!</h1>";
-echo "<h3>Cost of Tuition:$ $calcnonres </h3/>";
+echo "<h3>Cost of Tuition $units x $nonresident:$ $calcnonres </h3/>";
 echo "<h3>Student Health Fee:$ $mandatoryfees</h3/>";
 echo "<h3>College Services card:$ $collegeservices</h3/>";
 echo "<h3>Parking Permit:$ $parking</h3/>";
@@ -39,7 +39,7 @@ echo '<a href = "StudentForm.html">Back To Home Page</a>';
 //non Rez, YES Parking, NO College Service
     case "30":
 echo "<h1> Thank  you for Registering!</h1>";
-echo "<h3>Cost of Tuition:$ $calcnonres </h3/>";
+echo "<h3>Cost of Tuition  $units x $nonresident:$ $calcnonres </h3/>";
 echo "<h3>Student Health Fee:$ $mandatoryfees</h3/>";
 echo "<h3>College Services card:$ $collegeservices</h3/>";
 echo "<h3>Parking Permit:$ $parking</h3/>";
@@ -53,7 +53,7 @@ echo '<a href = "StudentForm.html">Back To Home Page</a>';
 //non Rez, NO Parking, YES College Service
     case "20":
 echo "<h1> Thank  you for Registering!</h1>";
-echo "<h3>Cost of Tuition:$ $calcnonres </h3/>";
+echo "<h3>Cost of Tuition  $units x $nonresident:$ $calcnonres </h3/>";
 echo "<h3>Student Health Fee:$ $mandatoryfees</h3/>";
 echo "<h3>College Services card:$ $collegeservices</h3/>";
 echo "<h3>Parking Permit:$ $parking</h3/>";
@@ -67,7 +67,7 @@ echo '<a href = "StudentForm.html">Back To Home Page</a>';
 //non Rez, YES Parking, YES College Service
     case "50":
 echo "<h1> Thank  you for Registering!</h1>";
-echo "<h3>Cost of Tuition:$ $calcnonres </h3/>";
+echo "<h3>Cost of Tuition  $units x $nonresident:$ $calcnonres </h3/>";
 echo "<h3>Student Health Fee:$ $mandatoryfees</h3/>";
 echo "<h3>College Services card:$ $collegeservices</h3/>";
 echo "<h3>Parking Permit:$ $parking</h3/>";
