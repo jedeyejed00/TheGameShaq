@@ -11,7 +11,8 @@ echo 'this is the explode';
 print_r($textexplode);
 
 echo 'this is shuffled';
-print_r($shuffledtext);
+print_r($textexplode);
+//print_r($shuffledtext);
 
 //$text = "This is a test to see how thisgs works";
 
