@@ -6,8 +6,11 @@ $text =$POST['text'];
 $textexplode = explode(' ',$text);
 $shuffledtext = shuffle($textexplode);
 
+echo 'this is the explode';
 
 print_r($textexplode);
+
+echo 'this is shuffled';
 print_r($shuffledtext);
 
 //$text = "This is a test to see how thisgs works";
