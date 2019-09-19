@@ -11,8 +11,8 @@ echo 'this is the explode';
 print_r($textexplode);
 
 //use implode to turn back into a string
-$textimplode = implode(' ',$textexplode);
-echo "<p>$textimplode</p>";
+//$textimplode = implode(' ',$textexplode);
+//echo "<p>$textimplode</p>";
 
 
 //print_r($textexplode);
