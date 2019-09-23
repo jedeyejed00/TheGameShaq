@@ -24,9 +24,7 @@ echo "Your original test is : $text";
 //$text = "This is a test to see how thisgs works";
 
 for ($i = 0; $i <= 10; $i++) {
-   echo "<p>$text , </p>";
-   echo '<p>' . $text . '</p>';
-    
+   echo "<p>$text</p>";
 }
 
 
