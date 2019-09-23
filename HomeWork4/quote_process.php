@@ -23,7 +23,7 @@ echo "Your original test is : $text";
 
 //$text = "This is a test to see how thisgs works";
 
-for ($i =0; $i <$numparagraphs; $i++) {
+for ($i =0; $i <$text; $i++) {
    echo "<p>$text , </p>";
    echo '<p>' . $text . '</p>';
     
