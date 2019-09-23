@@ -4,10 +4,10 @@ $text =$POST['text'];
 
 //this function is looking for a space in the letters in the text variable
 
-$textexplode = explode(' ',$text);
-$shuffledtext = shuffle($textexplode);
+//$textexplode = explode(' ',$text);
+//$shuffledtext = shuffle($textexplode);
 
-print_r($textexplode);
+//print_r($textexplode);
 
 echo "Your original test is : $text";
 
@@ -24,7 +24,7 @@ echo "Your original test is : $text";
 //$text = "This is a test to see how thisgs works";
 
 for ($i = 0; $i <= 10; $i++) {
-   echo "<p>$text</p>";
+   echo "<p>$text,</p>";
   // echo '<p>' . $text . '</p>';
     
 }
