@@ -8,7 +8,7 @@ $textexplode = explode(' ',$text);
 $shuffledtext = shuffle($textexplode);
 
 
-echo 'this is the explode';
+echo "Your original test is : $text";
 
 print_r($textexplode);
 
