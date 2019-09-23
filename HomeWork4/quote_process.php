@@ -1,7 +1,7 @@
 <?php
-$numparagraphs = $_POST['paragraphs'];
-$text =$POST['text'];
-
+//$numparagraphs = $_POST['paragraphs'];
+//$text =$POST['text'];
+$text = $POST[text];
 //this function is looking for a space in the letters in the text variable
 
 //$textexplode = explode(' ',$text);
@@ -9,7 +9,8 @@ $text =$POST['text'];
 
 //print_r($textexplode);
 
-echo "Your original test is : $text";
+echo "Your original text is :";
+echo $text;
 
 //print_r($textexplode);
 
