@@ -1,6 +1,6 @@
 <?php
 
-$text = $POST[tester];
+$tester = $POST['tester'];
 echo "Your original text is :";
 echo $tester;
 
