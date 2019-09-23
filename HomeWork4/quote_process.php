@@ -10,11 +10,11 @@ $shuffledtext = shuffle($textexplode);
 
 echo "Your original test is : $text";
 
-print_r($textexplode);
+//print_r($textexplode);
 
 //use implode to turn back into a string
-$textimplode = implode(' ',$textexplode);
-echo "<p>$textimplode</p>";
+//$textimplode = implode(' ',$textexplode);
+//echo "<p>$textimplode</p>";
 
 
 //print_r($textexplode);
