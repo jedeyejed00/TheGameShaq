@@ -7,6 +7,7 @@ $text =$POST['text'];
 $textexplode = explode(' ',$text);
 $shuffledtext = shuffle($textexplode);
 
+print_r($textexplode);
 
 echo "Your original test is : $text";
 
