@@ -8,7 +8,7 @@ $tester = $_POST['tester'];
     //} else {
      //   echo $tester;
     //}
-$tester = array($tester);
+$tester = array("$tester");
 echo "Your original text is :";
 echo $tester;
 sort($tester);
