@@ -3,11 +3,13 @@
 $tester = $_POST['tester'];
 echo "Your original text is :";
 echo count($tester);
-
-for ($i = 0; $i <= 10; $i++) {
-   echo "<p>$tester</p>";
-
+//for ($i = 0; $i <= 10; $i++) 
+{
+  // echo "<p>$tester</p>";
+  krsort($tester);
+ // $tester = array('$tester')
 }
+
 
 //$numparagraphs = $_POST['paragraphs'];
 //$tester =$POST['tester'];
