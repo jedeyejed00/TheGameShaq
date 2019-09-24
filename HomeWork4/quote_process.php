@@ -3,12 +3,13 @@
 $tester = $_POST['tester'];
 
 
-  if (empty($tester)) {
-        echo "Name is empty";
-    } else {
-        echo $tester;
-    }
-
+  //if (empty($tester)) {
+    //    echo "Name is empty";
+    //} else {
+     //   echo $tester;
+    //}
+$tester = array($tester);
+sort($tester);
 
 
 
