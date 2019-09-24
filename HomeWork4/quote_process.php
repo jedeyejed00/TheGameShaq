@@ -9,6 +9,8 @@ $tester = $_POST['tester'];
      //   echo $tester;
     //}
 $tester = array($tester);
+echo "Your original text is :";
+echo $tester;
 sort($tester);
 
 
