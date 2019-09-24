@@ -1,8 +1,8 @@
 <?php
 
-$tester = $POST['tester'];
+$tester = $_POST['tester'];
 echo "Your original text is :";
-echo $tester;
+echo count($tester);
 
 for ($i = 0; $i <= 10; $i++) {
    echo "<p>$tester</p>";
