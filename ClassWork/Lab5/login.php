@@ -20,7 +20,7 @@
         ?>
         <Center> 
 
-                <H1>The Best Form!</H1> 
+                <H1>Sticky Forms</H1> 
 
                 <form action="login.php" method="get"> 
 
