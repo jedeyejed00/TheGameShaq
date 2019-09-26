@@ -15,6 +15,9 @@
         
         if($server['REQUEST_METHOD'] == 'POST')
         {
+            $email = $_POST['email'];
+            $password = $POST['password'];
+            
         }
        
         ?>
