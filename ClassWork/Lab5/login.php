@@ -31,7 +31,7 @@
 
                     <input type ="Text id="email" name = "email" value = ""> 
                     
-                    <label for ="password">Email</label> 
+                    <label for ="password">Password</label> 
 
                     <input type ="Text id="password" name = "password" value = ""> 
 
