@@ -1,12 +1,23 @@
-<!DOCTYPE html> 
+<!doctype html>
+<html>
+    <head>
+         <meta charset="utf-8">
+         <title>Homepage</title>
 
-<html> 
-<?php include('includes/header.php');?>
-<head><meta charset = "utf-8" </head> 
-<title>Homepage</title>
-<style> 
 
-body {background-color: coral;} 
-</style> 
- 
-<header><p>This is the header</p></header>
+    </head>
+
+
+    <body>
+
+    <header>
+
+    <div id="header">
+    <ul id="nav">
+        <li><a href="index.php">HOME</a></li>
+        <li><a href="login.php">LOGIN</a></li>
+        <li><a href="register.php">REGISTER</a></li>
+    </ul>
+    </div><!-- header -->
+
+    </header>

@@ -1,6 +1,9 @@
+<!start of footer
+
+    <footer><p>Footer</p></footer>
 
 
 
+    </body>
 
-
- <?php include('includes/footer.php');?>
+</html>
