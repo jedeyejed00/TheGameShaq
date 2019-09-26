@@ -8,6 +8,11 @@
 
 body {background-color: coral;} 
 </style> 
+
+ <p><a href = "login.php">Login</a> </p>
+<p><a href = "register.php">Register</a> </p>
+ <p><a href = "header.php">Header</a> </p>
+ <p><a href = "footer.php">Footer</a> </p>
  
  <?php include('includes/header.php');?>
  
@@ -21,10 +26,7 @@ body {background-color: coral;}
 
  <?php include('includes/footer.php');?>
  
- <p><a href = "login.php">Login</a> </p>
-<p><a href = "register.php">Login</a> </p>
- <p><a href = "header.php">Login</a> </p>
- <p><a href = "footer.php">Login</a> </p>
+
 
 <body> 
 
