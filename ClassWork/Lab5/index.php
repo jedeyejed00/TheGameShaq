@@ -9,12 +9,13 @@
 body {background-color: coral;} 
 </style> 
  
+ <?php include('includes/header.php');?>
 <header><p>This is the header</p></header>
  
 
-<main><h1></h1>This is the home page</h1></main>
+<main><h1></h1>This is the home page33</h1></main>
 
-<footer><p>This is the footer</p></footer>
+ <?php include('includes/footer.php');?>
 
 <body> 
 
