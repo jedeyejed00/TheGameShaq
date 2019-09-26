@@ -20,6 +20,11 @@ body {background-color: coral;}
 <footer><p>This is the header</p></footer>
 
  <?php include('includes/footer.php');?>
+ 
+ <p><a href = "login.php">Login</a> </p>
+<p><a href = "register.php">Login</a> </p>
+ <p><a href = "header.php">Login</a> </p>
+ <p><a href = "footer.php">Login</a> </p>
 
 <body> 
 
