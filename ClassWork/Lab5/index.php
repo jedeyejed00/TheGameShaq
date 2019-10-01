@@ -2,7 +2,6 @@
 
 <?php include('includes/header.php'); ?>
 
-<body bgcolor="white">
     <main>
         <h1>This Is The Homepage</h1>
 

@@ -1,5 +1,5 @@
 <html>
-<body bgcolor="lightblue">
+<body>
 <h1>FOOTER</h1>
 </body>
 </html>

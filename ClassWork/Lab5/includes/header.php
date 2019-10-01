@@ -8,7 +8,7 @@
     </head>
 
 
-    <body bgcolor="lightblue">
+    <body>
 
     <header>
 
