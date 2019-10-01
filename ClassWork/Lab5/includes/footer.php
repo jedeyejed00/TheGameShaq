@@ -14,6 +14,8 @@
 
 </head>
 <body>
-<h1>FOOTER</h1>
+<div class="footer">
+  <p>Footer</p>
+</div>
 </body>
 </html>
