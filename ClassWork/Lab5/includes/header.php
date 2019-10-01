@@ -4,17 +4,7 @@
          <meta charset="utf-8">
          <title>Homepage</title>
         
-<style>
-.header {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: red;
-   color: white;
-   text-align: center;
-}
-</style>
+
 
 
 
@@ -32,8 +22,6 @@
         <li><a href="register.php">REGISTER</a></li>
     </ul>
     </div><!-- header -->
-    <div class="header">
-  <p>header</p>
-</div>
+    
 
     </header>
