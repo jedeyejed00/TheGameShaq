@@ -32,5 +32,8 @@
         <li><a href="register.php">REGISTER</a></li>
     </ul>
     </div><!-- header -->
+    <div class="header">
+  <p>header</p>
+</div>
 
     </header>
