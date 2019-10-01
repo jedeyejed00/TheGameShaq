@@ -1,7 +1,5 @@
-<!start of footer
-    <body bgcolor = "black">
-
-
-    </body>
-
+<html>
+<body bgcolor="lightblue">
+<h1>FOOTER</h1>
+</body>
 </html>
