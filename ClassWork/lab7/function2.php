@@ -7,8 +7,8 @@ function greeting($nametest){
     echo '<p> hello my name is '.$nametest.'</p>';
 }
 
-foreach($name as $names){
-    greeting($names);
+foreach($names as $name){
+    greeting($name);
 }
 
 
