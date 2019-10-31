@@ -18,12 +18,13 @@ $result = mysqli_query($connection, $query);
 
 // Check if the database returned anything
 if($result) {
-    while($rows = mysqli_fetch_array($result)){
+    $rows = mysqli_fetch_all($result, MYSQLI_ASSOC);
+    print_r($rows);
+   } else {
         // Output the results
+        echo 'not working';
     }
-} else {
-    // Output an error
-}
+
 ?>
 
 <!doctype html>
@@ -65,7 +66,7 @@ if($result) {
             <?php
             foreach ($rows as $row){
           echo  '<tr>
-                <td>$row[1]</td>
+                <td>$row['first_name']</td>
                 <td></td>
                 <td></td>
                 <td></td>
