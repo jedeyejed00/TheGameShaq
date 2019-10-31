@@ -16,6 +16,12 @@ $first_name = $POST['password'];
 $insert_query = "INSERT INTO user_lopez(first_name, last_name, email, password)
 		VALUES ($first_name, $last_name, $email, $password)";
 		$result = mysqli_query($connection, $insert_query);
+		if($result){
+		    echo 'New user added to DB';
+		}
+		else {'Error entering new user';
+		}
+		
 /*
 *   QUERY THE DATABASE AND STORE ALL USERS INTO A VARIABLE
 */
