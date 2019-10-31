@@ -18,7 +18,7 @@ $result = mysqli_query($connection, $query);
 
 // Check if the database returned anything
 if($result) {
-    while($row = mysqli_fetch_array($result)){
+    while($rows = mysqli_fetch_array($result)){
         // Output the results
     }
 } else {
@@ -63,9 +63,9 @@ if($result) {
         </thead>
         <tbody>
             <?php
-            While($row){
+            foreach ($rows as $row){
           echo  '<tr>
-                <td></td>
+                <td>$row[1]</td>
                 <td></td>
                 <td></td>
                 <td></td>
