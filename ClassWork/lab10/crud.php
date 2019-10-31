@@ -10,9 +10,12 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 *   QUERY THE DATABASE AND STORE ALL USERS INTO A VARIABLE
 */
 // Create your query
-$query = 'SELECT * FROM USER';
+
+$query = 'SELECT * FROM User_Lopez';
+
 // Run your query
 $result = mysqli_query($connection, $query);
+
 // Check if the database returned anything
 if($result) {
     while($row = mysqli_fetch_array($result)){
@@ -59,12 +62,17 @@ if($result) {
             </tr>
         </thead>
         <tbody>
-            <tr>
+            <?php
+            While($row){
+          echo  '<tr>
                 <td></td>
                 <td></td>
                 <td></td>
                 <td></td>
-            </tr>
+            </tr>';
+            
+            }
+            ?>
         </tbody>
     </table>
 </body>
