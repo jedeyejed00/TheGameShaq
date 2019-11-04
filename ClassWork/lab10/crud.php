@@ -79,7 +79,7 @@ if($result) {
             </tr>
         </thead>
         <tbody>
-            echo HIIIIIIIIIII
+            
             <?php
             foreach ($rows as $row){
           echo  '<tr>
@@ -88,8 +88,9 @@ if($result) {
                 <td>'.$row['email'].'</td>
                 <td>'.$row['password'].'</td>
             </tr>';
-            
+           
             }
+             echo 'HIIIIIIIIIII'
             ?>
         </tbody>
     </table>
