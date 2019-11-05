@@ -10,11 +10,12 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 $first_name = $POST['first_name'];
 $first_name = $POST['last_name'];
-$first_name = $POST['email'];
 $first_name = $POST['password'];
+$first_name = $POST['email'];
+
 
 $insert_query = "INSERT INTO user_lopez(first_name, last_name, email, password)
-		VALUES ($first_name, $last_name, $email, $password)";
+		VALUES ($first_name, $last_name, $password, $email)";
 		$result = mysqli_query($connection, $insert_query);
 		if($result){
 		    echo 'New user added to DB';
@@ -22,24 +23,6 @@ $insert_query = "INSERT INTO user_lopez(first_name, last_name, email, password)
 		else {'Error entering new user';
 		}
 		
-/*
-*   QUERY THE DATABASE AND STORE ALL USERS INTO A VARIABLE
-*/
-// Create your query
-
-$query = 'SELECT * FROM User_Lopez';
-
-// Run your query
-$result = mysqli_query($connection, $query);
-
-// Check if the database returned anything
-if($result) {
-    $rows = mysqli_fetch_all($result, MYSQLI_ASSOC);
-    print_r($rows);
-   } else {
-        // Output the results
-        echo 'not working';
-    }
 
 ?>
 
