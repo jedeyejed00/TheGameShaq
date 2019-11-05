@@ -9,9 +9,9 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 }
 
 $first_name = $POST['first_name'];
-$first_name = $POST['last_name'];
-$first_name = $POST['password'];
-$first_name = $POST['email'];
+$last_name = $POST['last_name'];
+$password = $POST['password'];
+$email = $POST['email'];
 
 
 $insert_query = "INSERT INTO user_lopez(first_name, last_name, password, email)
