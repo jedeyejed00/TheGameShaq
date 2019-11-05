@@ -13,7 +13,7 @@ $last_name = $POST['last_name'];
 $email = $POST['email'];
 $password = $POST['password'];
 
-$insert_query = "INSERT INTO user_lopez(first_name, last_name, email, password)
+$insert_query = "INSERT INTO User_Lopez(first_name, last_name, email, password)
 		VALUES ($first_name, $last_name, $email, $password)";
 		$result = mysqli_query($connection, $insert_query);
 		if($result){
