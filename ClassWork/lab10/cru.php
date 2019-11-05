@@ -14,7 +14,7 @@ $first_name = $POST['password'];
 $first_name = $POST['email'];
 
 
-$insert_query = "INSERT INTO user_lopez(first_name, last_name, email, password)
+$insert_query = "INSERT INTO user_lopez(first_name, last_name, password, email)
 		VALUES ($first_name, $last_name, $password, $email)";
 		$result = mysqli_query($connection, $insert_query);
 		if($result){
@@ -67,8 +67,8 @@ $insert_query = "INSERT INTO user_lopez(first_name, last_name, email, password)
           echo  '<tr>
                 <td>'.$row['first_name'].'</td>
                 <td>'.$row['lasr_name'].'</td>
-                <td>'.$row['email'].'</td>
                 <td>'.$row['password'].'</td>
+                <td>'.$row['email'].'</td>
             </tr>';
             
             }
