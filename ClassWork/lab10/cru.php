@@ -33,7 +33,7 @@ $insert_query = "INSERT INTO user_lopez(first_name, last_name, password, email)
 </head>
 <body>
     <h1>Create a New User</h1>
-    <form action="crud.php" method="POST">
+    <form action="cru.php" method="POST">
         <label for="first_name">First Name</label>
         <input type="text" id="first_name" name="first_name"><br>
 
@@ -66,7 +66,7 @@ $insert_query = "INSERT INTO user_lopez(first_name, last_name, password, email)
             foreach ($rows as $row){
           echo  '<tr>
                 <td>'.$row['first_name'].'</td>
-                <td>'.$row['lasr_name'].'</td>
+                <td>'.$row['last_name'].'</td>
                 <td>'.$row['password'].'</td>
                 <td>'.$row['email'].'</td>
             </tr>';
